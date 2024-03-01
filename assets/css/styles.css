@@ -23,7 +23,7 @@ header {
 header img {
     max-width: 200px; /* Establecer un ancho máximo para la imagen */
     max-height: 200px; /* Establecer una altura máxima para la imagen */
-    position: absolute; /* Establecer posición absoluta */
+    position: fixed; /* Establecer posición absoluta */
     top: 50%; /* Centrar verticalmente */
     left: 20px; /* Posicionar a la izquierda con un margen de 20px */
     transform: translateY(-50%); /* Centrar verticalmente */
