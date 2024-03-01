@@ -1,0 +1,85 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif; /* Usar Arial como fuente */
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8c00; /* Color de fondo naranja */
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #222; /* Fondo oscuro para el encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Establecer posición relativa */
+}
+
+/* Estilos para la imagen */
+header img {
+    max-width: 200px; /* Establecer un ancho máximo para la imagen */
+    max-height: 200px; /* Establecer una altura máxima para la imagen */
+    position: absolute; /* Establecer posición absoluta */
+    top: 50%; /* Centrar verticalmente */
+    left: 20px; /* Posicionar a la izquierda con un margen de 20px */
+    transform: translateY(-50%); /* Centrar verticalmente */
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #222; /* Fondo oscuro para la navegación */
+    padding: 10px 0; /* Añadir espacio alrededor del contenido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+}
+
+/* Estilos de secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #222; /* Fondo oscuro para las secciones */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 50px; /* Espacio entre las secciones */
+}
+
+section h2 {
+    color: #fff; /* Color del título blanco */
+}
+
+section p {
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #222; /* Fondo oscuro para el pie de página */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
