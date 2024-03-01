@@ -7,6 +7,7 @@ body {
     padding: 0;
     background-color: #ff8c00; /* Color de fondo naranja */
     color: #fff; /* Color del texto blanco */
+    margin-bottom: 50px; /* Agrega un margen inferior para crear espacio entre el contenido y el pie de página */
 }
 
 /* Estilos para el encabezado */
@@ -73,12 +74,12 @@ section p {
     color: #fff; /* Color del texto blanco */
 }
 
-/* Estilos para el footer */
+/* Estilos para el pie de página */
 footer {
     background-color: #222; /* Fondo oscuro para el pie de página */
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
