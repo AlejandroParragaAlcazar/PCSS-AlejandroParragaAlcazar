@@ -63,7 +63,7 @@ section {
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
-    margin-bottom: 50px; /* Espacio entre las secciones */
+    margin-bottom: 20px; /* Espacio entre las secciones */
 }
 
 section h2 {
@@ -80,7 +80,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
