@@ -75,10 +75,10 @@ section p {
 
 /* Estilos para las imágenes de las secciones */
 section img {
+    max-width: 100%; /* Ajusta el ancho máximo al 100% del contenedor */
+    max-height: 200px; /* Establece una altura máxima para las imágenes */
     float: right; /* Posiciona las imágenes a la derecha */
     margin-left: 20px; /* Agrega un margen a la izquierda para separar la imagen del texto */
-    max-width: 200px; /* Establece una anchura máxima para la imagen */
-    max-height: 200px; /* Establece una altura máxima para la imagen */
 }
 
 /* Estilos para el footer */
