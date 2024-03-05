@@ -73,6 +73,12 @@ section p {
     color: #fff; /* Color del texto blanco */
 }
 
+/* Estilos para las imágenes de las secciones */
+section img {
+    float: right; /* Posiciona las imágenes a la derecha */
+    margin-left: 20px; /* Agrega un margen a la izquierda para separar la imagen del texto */
+}
+
 /* Estilos para el footer */
 footer {
     background-color: #222; /* Fondo oscuro para el pie de página */
